@@ -84,7 +84,7 @@ function NationalParks() {
 
                 {searchType && (
                     <Form.Select value={selectedFilter} className="w-25 mx-auto mt-2" onChange={handleSearch}>
-                        <option value="" className="text-center">--Choose a {searchType}--</option>
+                        <option value="" className="text-center">--Choose a Park {searchType}--</option>
                         {generateOptions()}
                     </Form.Select>
                 )}
