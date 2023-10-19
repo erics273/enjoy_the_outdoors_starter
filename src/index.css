@@ -17,3 +17,21 @@ code {
   height: 65vh;
   overflow: hidden;
 }
+
+.mountainDetails{
+  position: relative;
+  min-height: 300px;
+}
+
+.mountainDetails::after{
+  content: "";
+  background-image: url("https://freepngimg.com/thumb/mountains/33431-5-mountains-free-download.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.1;
+}
