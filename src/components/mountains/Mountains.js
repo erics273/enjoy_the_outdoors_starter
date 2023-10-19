@@ -26,7 +26,7 @@ function Mountains() {
             <Container className="py-4">
 
                 <Form.Select className="w-25 mx-auto z-3" onChange={handleChange}>
-                    <option value="">--Select a Mountain--</option>
+                    <option value="" className="text-center">--Select a Mountain--</option>
                     {mountains.map((mountain, idx) => {
                         return <option key={idx} value={idx}>{mountain.name}</option>
                     })}
