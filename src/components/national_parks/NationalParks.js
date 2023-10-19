@@ -90,7 +90,9 @@ function NationalParks() {
                 )}
 
                 <hr />
-                
+                </Container>
+
+                <Container className="pb-4 mt-4 parkDetails">
                 {searchResults.length > 0 ? (
                     <Table striped bordered hover className="mt-4" variant="dark">
                     <thead>

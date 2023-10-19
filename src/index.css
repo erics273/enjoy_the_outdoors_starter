@@ -18,7 +18,7 @@ code {
   overflow: hidden;
 }
 
-.mountainDetails{
+.mountainDetails, .parkDetails{
   position: relative;
   min-height: 300px;
 }
@@ -28,6 +28,20 @@ code {
   background-image: url("https://freepngimg.com/thumb/mountains/33431-5-mountains-free-download.png");
   background-repeat: no-repeat;
   background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.1;
+}
+
+.parkDetails::after{
+  content: "";
+  background-image: url("https://i.etsystatic.com/21635101/r/il/c9f7ce/2718908178/il_fullxfull.2718908178_k5iq.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0px;
   position: absolute;
   top: 0px;
   right: 0px;
